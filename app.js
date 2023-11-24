@@ -18,9 +18,9 @@ async function createInfo() {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                nombre: "Name of the Movie 3",
-                recaudacion_millones: 121,
-                ganancias_millones: 55,
+                nombre: "Netlify",
+                recaudacion_millones: 50,
+                ganancias_millones: 10,
                 secuela: false
             })
         });
@@ -64,4 +64,4 @@ async function eliminateInfo(id) {
     }
 }
 
-getInfo();
+createInfo();
